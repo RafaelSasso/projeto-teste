@@ -1,3 +1,19 @@
+:root{
+--text-color: #e0dada;
+/*Cores de 1 a 5 da paleta   https://paletadecores.com/paleta/3c465d/2d374e/1e283f/0f192f/000a20/*/
+--hover-color: #3C465D;
+--secondary-color: #2D374E;
+--primary-color: #1E283F;
+--bg-color: #0F192F;
+--header-color: #000A20;
+--semi-white: #E0DADA80;
+}
+
+
+#root{
+    background-color: var(--bg-color);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,5 +21,5 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
 }
