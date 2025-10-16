@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root{
 --text-color: #e0dada;
 /*Cores de 1 a 5 da paleta   https://paletadecores.com/paleta/3c465d/2d374e/1e283f/0f192f/000a20/*/
@@ -14,12 +16,3 @@
     background-color: var(--bg-color);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-}

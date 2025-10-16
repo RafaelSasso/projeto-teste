@@ -10,8 +10,8 @@ function GameCard({ title, price, imageUrl }: GameCardProps) {
             <div className="w-full h-3/4 flex justify-center items-center overflow-hidden">
                 <img src={imageUrl} alt={title} className="w-full h-full object-fill" />
             </div>  
-            <div className="h-1/4 p-2 flex flex-col justify-center items-center">
-                <h2 className="text-lg font-semibold">{title}</h2>
+            <div className="h-1/4 p-0 flex flex-col justify-center items-center">
+                <h2 className="text-md font-semibold">{title}</h2>
                 <p className="text-sm text-gray-600">${price.toFixed(2)}</p>
             </div>
         </div>

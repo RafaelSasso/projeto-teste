@@ -3,10 +3,10 @@ import GameCard from "../components/gameCard";
 
 // Example local array (currently used)
 const array = [
-    { id: 1, title: "Silksong", price: 19.99, imageUrl: "../assets/silksong-banner.jpg" },
-    { id: 2, title: "Elden Ring", price: 29.99, imageUrl: "../assets/silksong-banner.jpg" },
-    { id: 3, title: "Game 3", price: 39.99, imageUrl: "../assets/silksong-banner.jpg" },
-    { id: 4, title: "Game 4", price: 49.99, imageUrl: "../assets/silksong-banner.jpg" },
+    { id: 1, title: "Silksong", price: 19.99, imageUrl: "../assets/silksong.jpeg" },
+    { id: 2, title: "Tekken", price: 29.99, imageUrl: "../assets/tekken.jpg" },
+    { id: 3, title: "Little Nightmares", price: 39.99, imageUrl: "../assets/littleNightmares.jpg" },
+    { id: 4, title: "God of War: Ragnarok", price: 49.99, imageUrl: "../assets/ragnarok.jpg" },
     { id: 5, title: "Game 5", price: 59.99, imageUrl: "../assets/silksong-banner.jpg" },
     { id: 6, title: "Game 6", price: 69.99, imageUrl: "../assets/silksong-banner.jpg" },
     { id: 7, title: "Game 7", price: 79.99, imageUrl: "../assets/silksong-banner.jpg" },
@@ -21,7 +21,13 @@ function GamePage() {
         <div className="flex">
             <div className=" h-full w-full flex">
                 <div className="w-1/4 flex">
-                    <div className="w-full bg-[var(--semi-white)] p-4">
+                    <div className="w-full bg-[var(--semi-white)] p-8">
+                        <form className="rounded-full w-full flex-1">
+                            <input type="text" className="rounded-bl-3xl rounded-tl-3xl h-10 border-0" />
+                            <div>
+
+                            </div>
+                        </form>
                         <h1>Filters</h1>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import silksongBanner from '../assets/silksong-banner.jpg';
+import { ShoppingCart } from "lucide-react";
 
 function Header() {
     return (
@@ -17,8 +18,9 @@ function Header() {
                 </div>
 
                 <Link to="/cart" className="flex items-center h-full">
-                    <button className="h-3/4 px-10 rounded-lg flex items-center justify-center max-h-full border-2 border-transparent hover:border-[var(--hover-color)] transition-ease-in-out duration-300">
-                        Cart
+                    <button className="h-3/4 px-6 rounded-lg flex gap-6 items-center justify-center max-h-full border-2 border-transparent hover:border-[var(--hover-color)] transition-ease-in-out duration-300">
+                        <ShoppingCart className="h-12 w-12" />
+                        <span>Cart</span>
                     </button>
                 </Link>
             </nav>
